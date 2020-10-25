@@ -1,0 +1,57 @@
+body{
+    margin:150px;
+    text-align: center;
+    font-size: larger;
+}
+section{
+    height: 500px;
+    padding: 150px 50px;
+    display:flex;
+    align-items: center;     
+}
+.width{
+    width: 40%;
+    float:left;
+    padding-left: 2%;
+    margin-left: 5%;
+}
+.header{
+    background-image: url(header-bg.png);
+    background-repeat: no-repeat;
+    width:100%
+}
+.biography{
+    background-image: url(biography-bg.png);
+    background-repeat: no-repeat;
+    width:100%
+}
+
+img{
+    width:100%;
+}
+#anchor-button{
+    text-decoration: none;
+    background: linear-gradient(180deg,lightsalmon,tomato);
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-weight: 700;
+    color:white;
+}
+#button{
+    text-decoration: none;
+    background: linear-gradient(180deg,lightsalmon,rgb(255, 86, 56));
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-weight: 700;
+    color:white;
+}
+.lastest{
+    background-image: url(latest-work-bg.png);
+    background-repeat: no-repeat;
+    width:100%;
+}
+.foot{
+    background-image: url(footer-bg.png);
+    background-repeat: no-repeat;
+    
+}
